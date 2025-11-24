@@ -7,92 +7,92 @@
   },
   "mce-operator-bundle": {
     "addon_manager": {
-      "prodseccomponent": "pscomponent:multicluster-engine-addon-manager-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/addon-manager-rhel9",
       "component": "Server Foundation",
       "repository": "https://github.com/stolostron/addon-framework"
     },
     "cluster_proxy_addon": {
-      "prodseccomponent": "pscomponent:multicluster-engine-cluster-proxy-addon-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/cluster-proxy-addon-rhel9",
       "component": "Server Foundation",
       "repository": "https://github.com/stolostron/cluster-proxy-addon"
     },
     "cluster_proxy": {
-      "prodseccomponent": "pscomponent:multicluster-engine-cluster-proxy-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/cluster-proxy-rhel9",
       "component": "Server Foundation",
       "repository": "https://github.com/stolostron/cluster-proxy"
     },
     "clusterlifecycle_state_metrics": {
-      "prodseccomponent": "pscomponent:multicluster-engine-clusterlifecycle-state-metrics-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/clusterlifecycle-state-metrics-rhel9",
       "component": "Server Foundation",
       "repository": "https://github.com/stolostron/clusterlifecycle-state-metrics"
     },
     "managed_serviceaccount": {
-      "prodseccomponent": "pscomponent:multicluster-engine-managed-serviceaccount-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/managed-serviceaccount-rhel9",
       "component": "Server Foundation",
       "repository": "https://github.com/stolostron/managed-serviceaccount"
     },
     "managedcluster_import_controller": {
-      "prodseccomponent": "pscomponent:multicluster-engine-managedcluster-import-controller-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/managedcluster-import-controller-rhel9",
       "component": "Server Foundation",
       "repository": "https://github.com/stolostron/managedcluster-import-controller"
     },
     "multicloud_manager": {
-      "prodseccomponent": "pscomponent:multicluster-engine-multicloud-manager-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/multicloud-manager-rhel9",
       "component": "Server Foundation",
       "repository": "https://github.com/stolostron/multicloud-operators-foundation"
     },
     "placement": {
-      "prodseccomponent": "pscomponent:multicluster-engine-placement-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/placement-rhel9",
       "component": "Server Foundation",
       "repository": "https://github.com/stolostron/ocm"
     },
     "registration": {
-      "prodseccomponent": "pscomponent:multicluster-engine-registration-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/registration-rhel9",
       "component": "Server Foundation",
       "repository": "https://github.com/stolostron/ocm"
     },
     "registration_operator": {
-      "prodseccomponent": "pscomponent:multicluster-engine-registration-operator-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/registration-operator-rhel9",
       "component": "Server Foundation",
       "repository": "https://github.com/stolostron/ocm"
     },
     "work": {
-      "prodseccomponent": "pscomponent:multicluster-engine-work-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/work-rhel9",
       "component": "Server Foundation",
       "repository": "https://github.com/stolostron/ocm"
     },
     "backplane_must_gather": {
-      "prodseccomponent": "pscomponent:multicluster-engine-must-gather-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/must-gather-rhel9",
       "component": "Installer",
       "repository": "https://github.com/stolostron/backplane-must-gather"
     },
     "discovery_operator": {
-      "prodseccomponent": "pscomponent:multicluster-engine-discovery-operator-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/discovery-operator-rhel9",
       "component": "Installer",
       "repository": "https://github.com/stolostron/discovery"
     },
     "cluster_api_provider_agent": {
-      "prodseccomponent": "pscomponent:multicluster-engine-cluster-api-provider-agent-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/cluster-api-provider-agent-rhel9",
       "component": "HyperShift",
       "repository": "https://github.com/openshift/cluster-api-provider-agent"
     },
     "cluster_api_provider_kubevirt": {
-      "prodseccomponent": "pscomponent:multicluster-engine-cluster-api-provider-kubevirt-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/cluster-api-provider-kubevirt-rhel9",
       "component": "HyperShift",
       "repository": "https://github.com/openshift/cluster-api-provider-kubevirt"
     },
     "hypershift_addon_operator": {
-      "prodseccomponent": "pscomponent:multicluster-engine-hypershift-addon-operator-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/hypershift-addon-rhel9-operator",
       "component": "HyperShift",
       "repository": "https://github.com/stolostron/hypershift-addon-operator"
     },
     "hypershift_cli": {
-      "prodseccomponent": "pscomponent:multicluster-engine-hypershift-cli-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/hypershift-cli-rhel9",
       "component": "HyperShift",
       "repository": "https://github.com/openshift/hypershift"
     },
     "cluster_api": {
-      "prodseccomponent": "pscomponent:multicluster-engine-cluster-api-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/cluster-api-rhel9",
       "component": "CAPI"
     },
     "ose_cluster_api_rhel9": {
@@ -104,32 +104,32 @@
       "repository": "https://github.com/kubernetes-sigs/cluster-api-provider-aws"
     },
     "assisted_image_service": {
-      "prodseccomponent": "pscomponent:multicluster-engine-assisted-installer-reporter-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/assisted-installer-reporter-rhel9",
       "component": "Infrastructure Operator",
       "repository": "https://github.com/openshift/assisted-image-service"
     },
     "assisted_installer": {
-      "prodseccomponent": "pscomponent:multicluster-engine-assisted-installer-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/assisted-installer-rhel9",
       "component": "Infrastructure Operator",
       "repository": "https://github.com/openshift/assisted-installer"
     },
     "assisted_installer_agent": {
-      "prodseccomponent": "pscomponent:multicluster-engine-assisted-installer-agent-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/assisted-installer-agent-rhel9",
       "component": "Infrastructure Operator",
       "repository": "https://github.com/openshift/assisted-installer-agent"
     },
     "assisted_installer_controller": {
-      "prodseccomponent": "pscomponent:multicluster-engine-assisted-installer-controller-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/assisted-installer-controller-rhel9",
       "component": "Infrastructure Operator",
       "repository": "https://github.com/openshift/assisted-installer"
     },
     "assisted_service_8": {
-      "prodseccomponent": "pscomponent:multicluster-engine-assisted-service-8-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/assisted-service-8-rhel9",
       "component": "Infrastructure Operator",
       "repository": "https://github.com/openshift/assisted-service"
     },
     "assisted_service_9": {
-      "prodseccomponent": "pscomponent:multicluster-engine-assisted-service-9-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/assisted-service-9-rhel9",
       "component": "Infrastructure Operator",
       "repository": "https://github.com/openshift/assisted-service"
     },
@@ -137,73 +137,73 @@
       "component": "Infrastructure Operator"
     },
     "cluster_curator_controller": {
-      "prodseccomponent": "pscomponent:multicluster-engine-cluster-curator-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/cluster-curator-rhel9",
       "component": "Cluster Lifecycle",
       "repository": "https://github.com/stolostron/cluster-curator-controller"
     },
     "cluster_image_set_controller": {
-      "prodseccomponent": "pscomponent:multicluster-engine-cluster-image-set-controller-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/cluster-image-set-controller-rhel9",
       "component": "Cluster Lifecycle",
       "repository": "https://github.com/stolostron/cluster-image-set-controller"
     },
     "clusterclaims_controller": {
-      "prodseccomponent": "pscomponent:multicluster-engine-cluster-claims-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/cluster-claims-rhel9",
       "component": "Cluster Lifecycle",
       "repository": "https://github.com/stolostron/clusterclaims-controller"
     },
     "provider_credential_controller": {
-      "prodseccomponent": "pscomponent:multicluster-engine-provider-credential-controller-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/provider-credential-controller-rhel9",
       "component": "Cluster Lifecycle",
       "repository": "https://github.com/stolostron/provider-credential-controller"
     },
     "hypershift_operator": {
-      "prodseccomponent": "pscomponent:multicluster-engine-hypershift-operator-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/hypershift-operator-rhel9",
       "component": "Cluster Lifecycle",
       "repository": "https://github.com/openshift/hypershift"
     },
     "console_mce": {
-      "prodseccomponent": "pscomponent:multicluster-engine-console-mce-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/console-mce-rhel9",
       "component": "Console",
       "repository": "https://github.com/stolostron/console"
     },
     "openshift_hive": {
-      "prodseccomponent": "pscomponent:multicluster-engine-hive-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/hive-rhel9",
       "component": "Hive",
       "repository": "https://github.com/openshift/hive"
     },
     "image_based_install_operator": {
-      "prodseccomponent": "pscomponent:multicluster-engine-image-based-install-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/image-based-install-rhel9",
       "component": "Image Based Install Operator",
       "repository": "https://github.com/openshift/image-based-install-operator"
     },
     "kube_rbac_proxy_mce": {
-      "prodseccomponent": "pscomponent:multicluster-engine-kube-rbac-proxy-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/kube-rbac-proxy-mce-rhel9",
       "component": "Observability",
       "repository": "https://github.com/stolostron/kube-rbac-proxy"
     },
     "agent_service": {
-      "prodseccomponent": "pscomponent:multicluster-engine-agent-service-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/agent-service-rhel9",
       "component": "Infrastructure Operator"
     },
     "cluster_api_provider_azure": {
-      "prodseccomponent": "pscomponent:multicluster-engine-cluster-api-provider-azure-container",
+      "prodseccomponent": "pscomponent:multicluster-engine/cluster-api-provider-azure-rhel9",
       "component": "HyperShift",
       "repository": "https://github.com/openshift/cluster-api-provider-azure"
     }
   },
   "acm-operator-bundle": {
     "klusterlet_addon_controller": {
-      "prodseccomponent": "pscomponent:klusterlet-addon-controller-container",
+      "prodseccomponent": "pscomponent:rhacm2/klusterlet-addon-controller-rhel9",
       "component": "Server Foundation",
       "repository": "https://github.com/stolostron/klusterlet-addon-controller"
     },
     "multiclusterhub_operator": {
-      "prodseccomponent": "pscomponent:multiclusterhub-operator-container",
+      "prodseccomponent": "pscomponent:rhacm2/multiclusterhub-rhel9",
       "component": "Installer",
       "repository": "https://github.com/stolostron/multiclusterhub-operator"
     },
     "console": {
-      "prodseccomponent": "pscomponent:console-container",
+      "prodseccomponent": "pscomponent:rhacm2/console-rhel9",
       "component": "Console",
       "repository": "https://github.com/stolostron/console"
     },
@@ -213,147 +213,147 @@
       "repository": "https://github.com/stolostron/kube-rbac-proxy"
     },
     "acm_cli": {
-      "prodseccomponent": "pscomponent:acm-cli-container",
+      "prodseccomponent": "pscomponent:rhacm2/acm-cli-rhel9",
       "component": "GRC",
       "repository": "https://github.com/stolostron/acm-cli"
     },
     "cert_policy_controller": {
-      "prodseccomponent": "pscomponent:cert-policy-controller-container",
+      "prodseccomponent": "pscomponent:rhacm2/cert-policy-controller-rhel9",
       "component": "GRC",
       "repository": "https://github.com/open-cluster-management/cert-policy-controller"
     },
     "config_policy_controller": {
-      "prodseccomponent": "pscomponent:config-policy-controller-container",
+      "prodseccomponent": "pscomponent:rhacm2/config-policy-controller-rhel9",
       "component": "GRC",
       "repository": "https://github.com/stolostron/config-policy-controller"
     },
     "governance_policy_addon_controller": {
-      "prodseccomponent": "pscomponent:acm-governance-policy-addon-controller-container",
+      "prodseccomponent": "pscomponent:rhacm2/acm-governance-policy-addon-controller-rhel9",
       "component": "GRC",
       "repository": "https://github.com/stolostron/governance-policy-addon-controller"
     },
     "governance_policy_framework_addon": {
-      "prodseccomponent": "pscomponent:acm-governance-policy-framework-addon-container",
+      "prodseccomponent": "pscomponent:rhacm2/acm-governance-policy-framework-addon-rhel9",
       "component": "GRC",
       "repository": "https://github.com/stolostron/governance-policy-framework-addon"
     },
     "governance_policy_propagator": {
-      "prodseccomponent": "pscomponent:governance-policy-propagator-container",
+      "prodseccomponent": "pscomponent:rhacm2/governance-policy-propagator-rhel9",
       "component": "GRC",
       "repository": "https://github.com/stolostron/governance-policy-propagator"
     },
     "acm_must_gather": {
-      "prodseccomponent": "pscomponent:acm-must-gather-container",
+      "prodseccomponent": "pscomponent:rhacm2/acm-must-gather-rhel9",
       "component": "GRC",
       "repository": "https://github.com/stolostron/must-gather"
     },
     "volsync_addon_controller": {
-      "prodseccomponent": "pscomponent:volsync-addon-container",
+      "prodseccomponent": "pscomponent:rhacm2/volsync-addon-rhel9",
       "component": "Business Continuity",
       "repository": "https://github.com/stolostron/volsync-addon-controller"
     },
     "cluster_backup_controller": {
-      "prodseccomponent": "pscomponent:cluster-backup-operator-container",
+      "prodseccomponent": "pscomponent:rhacm2/cluster-backup-operator-rhel9",
       "component": "Business Continuity",
       "repository": "https://github.com/open-cluster-management/cluster-backup-operator"
     },
     "cluster_permission": {
-      "prodseccomponent": "pscomponent:acm-cluster-permission-container",
+      "prodseccomponent": "pscomponent:rhacm2/acm-cluster-permission-rhel9",
       "component": "Application Lifecycle",
       "repository": "https://github.com/stolostron/cluster-permission"
     },
     "multicloud_integrations": {
-      "prodseccomponent": "pscomponent:multicloud-integrations-container",
+      "prodseccomponent": "pscomponent:rhacm2/multicloud-integrations-rhel9",
       "component": "Application Lifecycle",
       "repository": "https://github.com/stolostron/multicloud-integrations"
     },
     "multicluster_operators_application": {
-      "prodseccomponent": "pscomponent:multicluster-operators-application-container",
+      "prodseccomponent": "pscomponent:rhacm2/multicluster-operators-application-rhel9",
       "component": "Application Lifecycle",
       "repository": "https://github.com/stolostron/multicloud-operators-application"
     },
     "multicluster_operators_channel": {
-      "prodseccomponent": "pscomponent:multicluster-operators-channel-container",
+      "prodseccomponent": "pscomponent:rhacm2/multicluster-operators-channel-rhel9",
       "component": "Application Lifecycle",
       "repository": "https://github.com/stolostron/multicloud-operators-channel"
     },
     "multicluster_operators_subscription": {
-      "prodseccomponent": "pscomponent:multicluster-operators-subscription-operator-container",
+      "prodseccomponent": "pscomponent:rhacm2/multicluster-operators-subscription-rhel9",
       "component": "Application Lifecycle",
       "repository": "https://github.com/stolostron/multicloud-operators-subscription"
     },
     "endpoint_monitoring_operator": {
-      "prodseccomponent": "pscomponent:endpoint-monitoring-operator-container",
+      "prodseccomponent": "pscomponent:rhacm2/endpoint-monitoring-operator-rhel9",
       "component": "Observability",
       "repository": "https://github.com/stolostron/multicluster-observability-operator"
     },
     "grafana": {
-      "prodseccomponent": "pscomponent:acm-grafana-container",
+      "prodseccomponent": "pscomponent:rhacm2/acm-grafana-rhel9",
       "component": "Observability",
       "repository": "https://github.com/stolostron/grafana"
     },
     "grafana_dashboard_loader": {
-      "prodseccomponent": "pscomponent:grafana-dashboard-loader-container",
+      "prodseccomponent": "pscomponent:rhacm2/grafana-dashboard-loader-rhel9",
       "component": "Observability",
       "repository": "https://github.com/stolostron/grafana-dashboard-loader"
     },
     "kube_state_metrics": {
-      "prodseccomponent": "pscomponent:kube-state-metrics-container",
+      "prodseccomponent": "pscomponent:rhacm2/kube-state-metrics-rhel9",
       "component": "Observability",
       "repository": "https://github.com/stolostron/kube-state-metrics"
     },
     "memcached_exporter": {
-      "prodseccomponent": "pscomponent:memcached-exporter-container",
+      "prodseccomponent": "pscomponent:rhacm2/memcached-exporter-rhel9",
       "component": "Observability",
       "repository": "https://github.com/stolostron/memcached_exporter"
     },
     "metrics_collector": {
-      "prodseccomponent": "pscomponent:multicluster-observability-operator-container",
+      "prodseccomponent": "pscomponent:rhacm2/multicluster-observability-operator-rhel9",
       "component": "Observability",
       "repository": "https://github.com/stolostron/multicluster-observability-operator"
     },
     "multicluster_observability_addon": {
-      "prodseccomponent": "pscomponent:acm-multicluster-observability-addon-container",
+      "prodseccomponent": "pscomponent:rhacm2/acm-multicluster-observability-addon-rhel9",
       "component": "Observability",
       "repository": "https://github.com/stolostron/multicluster-observability-addon"
     },
     "multicluster_observability_operator": {
-      "prodseccomponent": "pscomponent:metrics-collector-container",
+      "prodseccomponent": "pscomponent:rhacm2/metrics-collector-rhel9",
       "component": "Observability",
       "repository": "https://github.com/stolostron/multicluster-observability-operator"
     },
     "node_exporter": {
-      "prodseccomponent": "pscomponent:node-exporter-container",
+      "prodseccomponent": "pscomponent:rhacm2/node-exporter-rhel9",
       "component": "Observability",
       "repository": "https://github.com/stolostron/node-exporter"
     },
     "observatorium": {
-      "prodseccomponent": "pscomponent:observatorium-container",
+      "prodseccomponent": "pscomponent:rhacm2/observatorium-rhel9",
       "component": "Observability",
       "repository": "https://github.com/stolostron/observatorium"
     },
     "observatorium_operator": {
-      "prodseccomponent": "pscomponent:observatorium-operator-container",
+      "prodseccomponent": "pscomponent:rhacm2/observatorium-operator-rhel9",
       "component": "Observability",
       "repository": "https://github.com/stolostron/observatorium-operator"
     },
     "prometheus": {
-      "prodseccomponent": "pscomponent:prometheus-container",
+      "prodseccomponent": "pscomponent:rhacm2/prometheus-rhel9",
       "component": "Observability",
       "repository": "https://github.com/stolostron/prometheus"
     },
     "prometheus_alertmanager": {
-      "prodseccomponent": "pscomponent:prometheus-alertmanager-container",
+      "prodseccomponent": "pscomponent:rhacm2/prometheus-alertmanager-rhel9",
       "component": "Observability",
       "repository": "https://github.com/stolostron/prometheus-alertmanager"
     },
     "prometheus_config_reloader": {
-      "prodseccomponent": "pscomponent:acm-prometheus-config-reloader-container",
+      "prodseccomponent": "pscomponent:rhacm2/acm-prometheus-config-reloader-rhel9",
       "component": "Observability",
       "repository": "https://github.com/stolostron/prometheus"
     },
     "prometheus_operator": {
-      "prodseccomponent": "pscomponent:acm-prometheus-operator-container",
+      "prodseccomponent": "pscomponent:rhacm2/acm-prometheus-operator-rhel9",
       "component": "Observability",
       "repository": "https://github.com/stolostron/prometheus-operator"
     },
@@ -363,12 +363,12 @@
       "repository": "https://github.com/stolostron/multicluster-observability-operator"
     },
     "thanos": {
-      "prodseccomponent": "pscomponent:thanos-container",
+      "prodseccomponent": "pscomponent:rhacm2/thanos-rhel9",
       "component": "Observability",
       "repository": "https://github.com/stolostron/thanos"
     },
     "thanos_receive_controller": {
-      "prodseccomponent": "pscomponent:thanos-receive-controller-container",
+      "prodseccomponent": "pscomponent:rhacm2/thanos-receive-controller-rhel9",
       "component": "Observability",
       "repository": "https://github.com/stolostron/thanos-receive-controller"
     },
@@ -377,77 +377,77 @@
       "repository": "https://github.com/openshift/configmap-reload"
     },
     "memcached": {
-      "prodseccomponent": "pscomponent:memcached-container",
+      "prodseccomponent": "pscomponent:rhacm2/memcached-rhel9",
       "component": "Observability",
       "repository": "https://github.com/stolostron/memcached"
     },
     "insights_client": {
-      "prodseccomponent": "pscomponent:insights-client-container",
+      "prodseccomponent": "pscomponent:rhacm2/insights-client-rhel9",
       "component": "Search",
       "repository": "https://github.com/stolostron/insights-client"
     },
     "insights_metrics": {
-      "prodseccomponent": "pscomponent:insights-metrics-container",
+      "prodseccomponent": "pscomponent:rhacm2/insights-metrics-rhel9",
       "component": "Search",
       "repository": "https://github.com/stolostron/insights-metrics"
     },
     "search_collector": {
-      "prodseccomponent": "pscomponent:search-collector-container",
+      "prodseccomponent": "pscomponent:rhacm2/search-collector-rhel9",
       "component": "Search",
       "repository": "https://github.com/stolostron/search-collector"
     },
     "search_indexer": {
-      "prodseccomponent": "pscomponent:acm-search-indexer-container",
+      "prodseccomponent": "pscomponent:rhacm2/acm-search-indexer-rhel9",
       "component": "Search",
       "repository": "https://github.com/stolostron/search-indexer"
     },
     "search_v2_api": {
-      "prodseccomponent": "pscomponent:acm-search-v2-api-container",
+      "prodseccomponent": "pscomponent:rhacm2/acm-search-v2-api-rhel9",
       "component": "Search",
       "repository": "https://github.com/stolostron/search-v2-api"
     },
     "search_v2_operator": {
-      "prodseccomponent": "pscomponent:acm-search-v2-operator-container",
+      "prodseccomponent": "pscomponent:rhacm2/acm-search-v2-rhel9",
       "component": "Search",
       "repository": "https://github.com/stolostron/search-v2-operator"
     },
     "submariner_addon": {
-      "prodseccomponent": "pscomponent:submariner-addon-container",
+      "prodseccomponent": "pscomponent:rhacm2/submariner-addon-rhel9",
       "component": "Submariner",
       "repository": "https://github.com/stolostron/submariner-addon"
     },
     "flightctl_api": {
-      "prodseccomponent": "pscomponent:flightcontrol-api-container",
+      "prodseccomponent": "pscomponent:rhacm2/flightcontrol-api-rhel9",
       "component": "Edge Manager",
       "repository": "https://github.com/flightctl/flightctl"
     },
     "flightctl_ocp_ui": {
-      "prodseccomponent": "pscomponent:flightcontrol-ocp-ui-container",
+      "prodseccomponent": "pscomponent:rhacm2/flightcontrol-ocp-ui-rhel9",
       "component": "Edge Manager",
       "repository": "https://github.com/flightctl/flightctl-ui"
     },
     "flightctl_periodic": {
-      "prodseccomponent": "pscomponent:flightcontrol-periodic-container",
+      "prodseccomponent": "pscomponent:rhacm2/flightcontrol-periodic-rhel9",
       "component": "Edge Manager",
       "repository": "https://github.com/flightctl/flightctl"
     },
     "flightctl_ui": {
-      "prodseccomponent": "pscomponent:flightcontrol-ui-container",
+      "prodseccomponent": "pscomponent:rhacm2/flightcontrol-ui-rhel9",
       "component": "Edge Manager",
       "repository": "https://github.com/flightctl/flightctl-ui"
     },
     "flightctl_worker": {
-      "prodseccomponent": "pscomponent:flightcontrol-worker-container",
+      "prodseccomponent": "pscomponent:rhacm2/flightcontrol-worker-rhel9",
       "component": "Edge Manager",
       "repository": "https://github.com/flightctl/flightctl"
     },
     "flightctl": {
-      "prodseccomponent": "pscomponent:flightctl",
+      "prodseccomponent": "pscomponent:rhacm2/flightctl",
       "component": "Flight Control",
       "repository": "https://github.com/flightctl/flightctl"
     },
     "siteconfig_operator": {
-      "prodseccomponent": "pscomponent:acm-siteconfig-container",
+      "prodseccomponent": "pscomponent:rhacm2/acm-siteconfig-rhel9",
       "component": "SiteConfig Operator",
       "repository": "https://github.com/stolostron/siteconfig"
     },
@@ -540,19 +540,19 @@
   },
   "gatekeeper-operator-bundle": {
     "gatekeeper": {
-      "prodseccomponent": "pscomponent:gatekeeper-container",
+      "prodseccomponent": "pscomponent:rhacm2/gatekeeper-rhel9",
       "component": "GRC",
       "repository": "https://github.com/stolostron/gatekeeper"
     },
     "gatekeeper_operator": {
-      "prodseccomponent": "pscomponent:gatekeeper-operator-container",
+      "prodseccomponent": "pscomponent:rhacm2/gatekeeper-operator-rhel9",
       "component": "GRC",
       "repository": "https://github.com/stolostron/gatekeeper-operator"
     }
   },
   "volsync-operator-bundle": {
     "volsync": {
-      "prodseccomponent": "pscomponent:volsync-container",
+      "prodseccomponent": "pscomponent:rhacm2/volsync-rhel9",
       "component": "Business Continuity",
       "repository": "https://github.com/backube/volsync"
     }
@@ -562,30 +562,30 @@
       "component": "Security"
     },
     "globalhub_operator": {
-      "prodseccomponent": "pscomponent:multicluster-globalhub-operator-container",
+      "prodseccomponent": "pscomponent:multicluster-globalhub/multicluster-globalhub-operator-rhel9",
       "component": "Global Hub",
       "repository": "https://github.com/stolostron/multicluster-global-hub"
     },
     "globalhub_manager": {
-      "prodseccomponent": "pscomponent:multicluster-globalhub-manager-container",
+      "prodseccomponent": "pscomponent:multicluster-globalhub/multicluster-globalhub-manager-rhel9",
       "component": "Global Hub",
       "repository": "https://github.com/stolostron/multicluster-global-hub"
     },
     "globalhub_agent": {
-      "prodseccomponent": "pscomponent:multicluster-globalhub-agent-container",
+      "prodseccomponent": "pscomponent:multicluster-globalhub/multicluster-globalhub-agent-rhel9",
       "component": "Global Hub",
       "repository": "https://github.com/stolostron/multicluster-global-hub"
     },
     "globalhub_postgres_exporter": {
-      "prodseccomponent": "pscomponent:multicluster-globalhub-postgres-exporter-container",
+      "prodseccomponent": "pscomponent:multicluster-globalhub/multicluster-globalhub-postgres-exporter-rhel9",
       "component": "Global Hub"
     },
     "globalhub_grafana": {
-      "prodseccomponent": "pscomponent:multicluster-globalhub-grafana-container",
+      "prodseccomponent": "pscomponent:multicluster-globalhub/multicluster-globalhub-grafana-rhel9",
       "component": "Global Hub"
     },
     "globalhub_kessel_inventory_api": {
-      "prodseccomponent": "pscomponent:multicluster-globalhub-kessel-inventory-api-container",
+      "prodseccomponent": "pscomponent:multicluster-globalhub/multicluster-globalhub-kessel-inventory-api-rhel9",
       "component": "Global Hub"
     }
   },
@@ -595,37 +595,37 @@
       "repository": "https://github.com/submariner-io/submariner"
     },
     "lighthouse_agent": {
-      "prodseccomponent": "pscomponent:lighthouse-agent-container",
+      "prodseccomponent": "pscomponent:rhacm2/lighthouse-agent-rhel9",
       "component": "Multicluster Networking",
       "repository": "https://github.com/submariner-io/lighthouse"
     },
     "lighthouse_coredns": {
-      "prodseccomponent": "pscomponent:lighthouse-agent-container",
+      "prodseccomponent": "pscomponent:rhacm2/lighthouse-agent-rhel9",
       "component": "Multicluster Networking",
       "repository": "https://github.com/submariner-io/lighthouse"
     },
     "nettest": {
-      "prodseccomponent": "pscomponent:nettest-container",
+      "prodseccomponent": "pscomponent:rhacm2/nettest-rhel9",
       "component": "Multicluster Networking",
       "repository": "https://github.com/submariner-io/submariner"
     },
     "submariner_globalnet": {
-      "prodseccomponent": "pscomponent:submariner-gateway-container",
+      "prodseccomponent": "pscomponent:rhacm2/submariner-gateway-rhel9",
       "component": "Multicluster Networking",
       "repository": "https://github.com/submariner-io/submariner"
     },
     "submariner_operator": {
-      "prodseccomponent": "pscomponent:submariner-operator-container",
+      "prodseccomponent": "pscomponent:rhacm2/submariner-operator-rhel9",
       "component": "Multicluster Networking",
       "repository": "https://github.com/submariner-io/submariner-operator"
     },
     "submariner_gateway": {
-      "prodseccomponent": "pscomponent:submariner-gateway-container",
+      "prodseccomponent": "pscomponent:rhacm2/submariner-gateway-rhel9",
       "component": "Multicluster Networking",
       "repository": "https://github.com/submariner-io/submariner"
     },
     "subctl": {
-      "prodseccomponent": "pscomponent:subctl-container",
+      "prodseccomponent": "pscomponent:rhacm2/subctl-rhel9",
       "component": "Multicluster Networking",
       "repository": "https://github.com/submariner-io/submariner"
     }
