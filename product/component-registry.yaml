@@ -110,13 +110,13 @@ components:
     repository: "https://github.com/stolostron/backplane-must-gather"
     prodseccomponent: "pscomponent:multicluster-engine-must-gather-container"
     squad: "Install"
-    jira_component: "Install"
+    jira_component: "Installer"
 
   - name: "backplane-operator"
     konflux_component: "backplane-operator-mce"
     repository: "https://github.com/stolostron/backplane-operator"
     squad: "Install"
-    jira_component: "Install"
+    jira_component: "Installer"
 
   - name: "discovery-operator"
     konflux_component: "discovery-operator-mce"
@@ -124,19 +124,19 @@ components:
     repository: "https://github.com/stolostron/discovery"
     prodseccomponent: "pscomponent:multicluster-engine-discovery-operator-container"
     squad: "Install"
-    jira_component: "Install"
+    jira_component: "Installer"
 
   - name: "mce-operator-bundle"
     konflux_component: "mce-operator-bundle-mce"
     repository: "https://github.com/stolostron/mce-operator-bundle"
     squad: "Install"
-    jira_component: "Install"
+    jira_component: "Installer"
 
   - name: "acm-operator-bundle"
     konflux_component: "acm-operator-bundle-acm"
     repository: "https://github.com/stolostron/acm-operator-bundle"
     squad: "Install"
-    jira_component: "Install"
+    jira_component: "Installer"
 
   - name: "multiclusterhub-operator"
     konflux_component: "multiclusterhub-operator-acm"
@@ -144,7 +144,7 @@ components:
     repository: "https://github.com/stolostron/multiclusterhub-operator"
     prodseccomponent: "pscomponent:multiclusterhub-operator-container"
     squad: "Install"
-    jira_component: "Install"
+    jira_component: "Installer"
 
   # Hypershift Squad
   - name: "cluster-api-provider-agent"
@@ -227,12 +227,12 @@ components:
   - name: "cluster-api-provider-openshift-assisted-bootstrap"
     konflux_component: "cluster-api-provider-openshift-assisted-bootstrap-mce"
     squad: "Assisted Installer"
-    jira_component: "Assisted Installer"
+    jira_component: "Infrastructure Operator"
 
   - name: "cluster-api-provider-openshift-assisted-control-plane"
     konflux_component: "cluster-api-provider-openshift-assisted-control-plane-mce"
     squad: "Assisted Installer"
-    jira_component: "Assisted Installer"
+    jira_component: "Infrastructure Operator"
 
   - name: "assisted-image-service"
     konflux_component: "assisted-image-service"
@@ -240,7 +240,7 @@ components:
     repository: "https://github.com/openshift/assisted-image-service"
     prodseccomponent: "pscomponent:multicluster-engine-assisted-installer-reporter-container"
     squad: "Assisted Installer"
-    jira_component: "Assisted Installer"
+    jira_component: "Infrastructure Operator"
 
   - name: "assisted-installer"
     konflux_component: "assisted-installer"
@@ -248,7 +248,7 @@ components:
     repository: "https://github.com/openshift/assisted-installer"
     prodseccomponent: "pscomponent:multicluster-engine-assisted-installer-container"
     squad: "Assisted Installer"
-    jira_component: "Assisted Installer"
+    jira_component: "Infrastructure Operator"
 
   - name: "assisted-installer-agent"
     konflux_component: "assisted-installer-agent"
@@ -256,7 +256,7 @@ components:
     repository: "https://github.com/openshift/assisted-installer-agent"
     prodseccomponent: "pscomponent:multicluster-engine-assisted-installer-agent-container"
     squad: "Assisted Installer"
-    jira_component: "Assisted Installer"
+    jira_component: "Infrastructure Operator"
 
   - name: "assisted-installer-controller"
     konflux_component: "assisted-installer-controller"
@@ -264,7 +264,7 @@ components:
     repository: "https://github.com/openshift/assisted-installer"
     prodseccomponent: "pscomponent:multicluster-engine-assisted-installer-controller-container"
     squad: "Assisted Installer"
-    jira_component: "Assisted Installer"
+    jira_component: "Infrastructure Operator"
 
   - name: "assisted-service-8"
     konflux_component: "assisted-service-8"
@@ -272,7 +272,7 @@ components:
     repository: "https://github.com/openshift/assisted-service"
     prodseccomponent: "pscomponent:multicluster-engine-assisted-service-8-container"
     squad: "Assisted Installer"
-    jira_component: "Assisted Installer"
+    jira_component: "Infrastructure Operator"
 
   - name: "assisted-service-9"
     konflux_component: "assisted-service-9"
@@ -280,13 +280,13 @@ components:
     repository: "https://github.com/openshift/assisted-service"
     prodseccomponent: "pscomponent:multicluster-engine-assisted-service-9-container"
     squad: "Assisted Installer"
-    jira_component: "Assisted Installer"
+    jira_component: "Infrastructure Operator"
 
   - name: "postgresql-12"
     konflux_component: "postgresql-12"
     bundle: "mce-operator-bundle"
     squad: "Assisted Installer"
-    jira_component: "Assisted Installer"
+    jira_component: "Infrastructure Operator"
 
   # Cluster Lifecycle Squad
   - name: "cluster-curator-controller"
@@ -367,7 +367,7 @@ components:
     repository: "https://github.com/openshift/image-based-install-operator"
     prodseccomponent: "pscomponent:multicluster-engine-image-based-install-container"
     squad: "IBIO"
-    jira_component: "IBIO"
+    jira_component: "Image Based Install Operator"
 
   # Hypershift / Observability Squad
   - name: "kube-rbac-proxy"
@@ -775,14 +775,14 @@ components:
     konflux_component: "mtv-integrations-acm"
     repository: "https://github.com/stolostron/mtv-integrations"
     squad: "Virtualization"
-    jira_component: "Virtualization"
+    jira_component: "Container Native Virtualization"
 
   # Siteconfig Squad
   - name: "siteconfig"
     konflux_component: "siteconfig-acm"
     repository: "https://github.com/stolostron/siteconfig"
     squad: "Siteconfig"
-    jira_component: "Siteconfig"
+    jira_component: "SiteConfig Operator"
 
   # Submariner Squad
   - name: "submariner-addon"
