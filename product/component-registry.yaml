@@ -369,15 +369,6 @@ components:
     squad: "IBIO"
     jira_component: "Image Based Install Operator"
 
-  # Hypershift / Observability Squad
-  - name: "kube-rbac-proxy"
-    konflux_component: "kube-rbac-proxy-mce"
-    bundle: "acm-operator-bundle"
-    repository: "https://github.com/stolostron/kube-rbac-proxy"
-    prodseccomponent: "pscomponent:kube-rbac-proxy-container"
-    squad: "Hypershift / Observability"
-    jira_component: "Hypershift / Observability"
-
   # GRC Squad
   - name: "acm-cli"
     konflux_component: "acm-cli-acm"
@@ -707,6 +698,7 @@ components:
     konflux_component: "ose-kube-rbac-proxy"
     squad: "Observability"
     jira_component: "Observability"
+
   - name: "kube-rbac-proxy-mce"
     konflux_component: "kube-rbac-proxy-mce"
     bundle: "mce-operator-bundle"
@@ -714,7 +706,6 @@ components:
     prodseccomponent: "pscomponent:multicluster-engine-kube-rbac-proxy-container"
     squad: "Observability"
     jira_component: "Observability"
-
 
   # Search Squad
   - name: "insights-client"
