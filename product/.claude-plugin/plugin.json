@@ -1,0 +1,8 @@
+{
+    "name": "product",
+    "description": "This plugin contains all agents, subcommands and skills related to ACM product.",
+    "version": "0.0.1",
+    "author": {
+        "name": "Zhao Xue"
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "acm-config-plugins",
+  "owner": {
+    "name": "Advanced Cluster Management(RedHat)",
+    "email": "zxue@redhat.com"
+  },
+  "plugins": [
+    {
+      "name": "product",
+      "source": "./product",
+      "description": "Manage, view, and operate all active (open) pull requests of the server foundation team."
+    }
+  ]
+}
