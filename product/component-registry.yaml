@@ -153,7 +153,7 @@ components:
     repository: "https://github.com/openshift/cluster-api-provider-agent"
     prodseccomponent: "pscomponent:multicluster-engine-cluster-api-provider-agent-container"
     squad: "Hypershift"
-    jira_component: "Hypershift"
+    jira_component: "HyperShift"
 
   - name: "cluster-api-provider-kubevirt"
     konflux_component: "cluster-api-provider-kubevirt-mce"
@@ -161,7 +161,7 @@ components:
     repository: "https://github.com/openshift/cluster-api-provider-kubevirt"
     prodseccomponent: "pscomponent:multicluster-engine-cluster-api-provider-kubevirt-container"
     squad: "Hypershift"
-    jira_component: "Hypershift"
+    jira_component: "HyperShift"
 
   - name: "hypershift-addon-operator"
     konflux_component: "hypershift-addon-operator-mce"
@@ -169,7 +169,7 @@ components:
     repository: "https://github.com/stolostron/hypershift-addon-operator"
     prodseccomponent: "pscomponent:multicluster-engine-hypershift-addon-operator-container"
     squad: "Hypershift"
-    jira_component: "Hypershift"
+    jira_component: "HyperShift"
 
   - name: "hypershift-cli"
     konflux_component: "hypershift-cli-mce"
@@ -177,12 +177,12 @@ components:
     repository: "https://github.com/openshift/hypershift"
     prodseccomponent: "pscomponent:multicluster-engine-hypershift-cli-container"
     squad: "Hypershift"
-    jira_component: "Hypershift"
+    jira_component: "HyperShift"
 
   - name: "hypershift-release"
     konflux_component: "hypershift-release-mce"
     squad: "Hypershift"
-    jira_component: "Hypershift"
+    jira_component: "HyperShift"
 
   # CAPI Squad
 
