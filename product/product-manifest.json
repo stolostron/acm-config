@@ -63,32 +63,32 @@
     },
     "backplane_must_gather": {
       "prodseccomponent": "pscomponent:multicluster-engine-must-gather-container",
-      "component": "Install",
+      "component": "Installer",
       "repository": "https://github.com/stolostron/backplane-must-gather"
     },
     "discovery_operator": {
       "prodseccomponent": "pscomponent:multicluster-engine-discovery-operator-container",
-      "component": "Install",
+      "component": "Installer",
       "repository": "https://github.com/stolostron/discovery"
     },
     "cluster_api_provider_agent": {
       "prodseccomponent": "pscomponent:multicluster-engine-cluster-api-provider-agent-container",
-      "component": "Hypershift",
+      "component": "HyperShift",
       "repository": "https://github.com/openshift/cluster-api-provider-agent"
     },
     "cluster_api_provider_kubevirt": {
       "prodseccomponent": "pscomponent:multicluster-engine-cluster-api-provider-kubevirt-container",
-      "component": "Hypershift",
+      "component": "HyperShift",
       "repository": "https://github.com/openshift/cluster-api-provider-kubevirt"
     },
     "hypershift_addon_operator": {
       "prodseccomponent": "pscomponent:multicluster-engine-hypershift-addon-operator-container",
-      "component": "Hypershift",
+      "component": "HyperShift",
       "repository": "https://github.com/stolostron/hypershift-addon-operator"
     },
     "hypershift_cli": {
       "prodseccomponent": "pscomponent:multicluster-engine-hypershift-cli-container",
-      "component": "Hypershift",
+      "component": "HyperShift",
       "repository": "https://github.com/openshift/hypershift"
     },
     "cluster_api": {
@@ -105,36 +105,36 @@
     },
     "assisted_image_service": {
       "prodseccomponent": "pscomponent:multicluster-engine-assisted-installer-reporter-container",
-      "component": "Assisted Installer",
+      "component": "Infrastructure Operator",
       "repository": "https://github.com/openshift/assisted-image-service"
     },
     "assisted_installer": {
       "prodseccomponent": "pscomponent:multicluster-engine-assisted-installer-container",
-      "component": "Assisted Installer",
+      "component": "Infrastructure Operator",
       "repository": "https://github.com/openshift/assisted-installer"
     },
     "assisted_installer_agent": {
       "prodseccomponent": "pscomponent:multicluster-engine-assisted-installer-agent-container",
-      "component": "Assisted Installer",
+      "component": "Infrastructure Operator",
       "repository": "https://github.com/openshift/assisted-installer-agent"
     },
     "assisted_installer_controller": {
       "prodseccomponent": "pscomponent:multicluster-engine-assisted-installer-controller-container",
-      "component": "Assisted Installer",
+      "component": "Infrastructure Operator",
       "repository": "https://github.com/openshift/assisted-installer"
     },
     "assisted_service_8": {
       "prodseccomponent": "pscomponent:multicluster-engine-assisted-service-8-container",
-      "component": "Assisted Installer",
+      "component": "Infrastructure Operator",
       "repository": "https://github.com/openshift/assisted-service"
     },
     "assisted_service_9": {
       "prodseccomponent": "pscomponent:multicluster-engine-assisted-service-9-container",
-      "component": "Assisted Installer",
+      "component": "Infrastructure Operator",
       "repository": "https://github.com/openshift/assisted-service"
     },
     "postgresql_12": {
-      "component": "Assisted Installer"
+      "component": "Infrastructure Operator"
     },
     "cluster_curator_controller": {
       "prodseccomponent": "pscomponent:multicluster-engine-cluster-curator-container",
@@ -173,7 +173,7 @@
     },
     "image_based_install_operator": {
       "prodseccomponent": "pscomponent:multicluster-engine-image-based-install-container",
-      "component": "IBIO",
+      "component": "Image Based Install Operator",
       "repository": "https://github.com/openshift/image-based-install-operator"
     },
     "kube_rbac_proxy_mce": {
@@ -199,7 +199,7 @@
     },
     "multiclusterhub_operator": {
       "prodseccomponent": "pscomponent:multiclusterhub-operator-container",
-      "component": "Install",
+      "component": "Installer",
       "repository": "https://github.com/stolostron/multiclusterhub-operator"
     },
     "console": {
@@ -457,19 +457,19 @@
   },
   "nobundle": {
     "backplane_operator": {
-      "component": "Install",
+      "component": "Installer",
       "repository": "https://github.com/stolostron/backplane-operator"
     },
     "mce_operator_bundle": {
-      "component": "Install",
+      "component": "Installer",
       "repository": "https://github.com/stolostron/mce-operator-bundle"
     },
     "acm_operator_bundle": {
-      "component": "Install",
+      "component": "Installer",
       "repository": "https://github.com/stolostron/acm-operator-bundle"
     },
     "hypershift_release": {
-      "component": "Hypershift"
+      "component": "HyperShift"
     },
     "cluster_api_provider_aws": {
       "component": "CAPI",
@@ -482,10 +482,10 @@
       "component": "CAPI"
     },
     "cluster_api_provider_openshift_assisted_bootstrap": {
-      "component": "Assisted Installer"
+      "component": "Infrastructure Operator"
     },
     "cluster_api_provider_openshift_assisted_control_plane": {
-      "component": "Assisted Installer"
+      "component": "Infrastructure Operator"
     },
     "hive": {
       "component": "Hive"
@@ -509,11 +509,11 @@
       "component": "Search"
     },
     "mtv_integrations": {
-      "component": "Virtualization",
+      "component": "Container Native Virtualization",
       "repository": "https://github.com/stolostron/mtv-integrations"
     },
     "siteconfig": {
-      "component": "Siteconfig",
+      "component": "SiteConfig Operator",
       "repository": "https://github.com/stolostron/siteconfig"
     },
     "flightctl_cli_artifacts": {
