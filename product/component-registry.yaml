@@ -781,8 +781,8 @@ components:
     bundle: "acm-operator-bundle"
     repository: "https://github.com/stolostron/submariner-addon"
     prodseccomponent: "pscomponent:rhacm2/submariner-addon-rhel9"
-    squad: "Submariner"
-    jira_component: "Submariner"
+    squad: "Multicluster Networking"
+    jira_component: "Multicluster Networking"
 
   # Edge Manager Squad
   - name: "flightctl-api"
