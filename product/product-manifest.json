@@ -413,7 +413,7 @@
     },
     "submariner_addon": {
       "prodseccomponent": "pscomponent:rhacm2/submariner-addon-rhel9",
-      "component": "Submariner",
+      "component": "Multicluster Networking",
       "repository": "https://github.com/stolostron/submariner-addon"
     },
     "flightctl_api": {
