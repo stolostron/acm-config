@@ -259,7 +259,7 @@
     },
     "cluster_permission": {
       "prodseccomponent": "pscomponent:rhacm2/acm-cluster-permission-rhel9",
-      "component": "Application Lifecycle",
+      "component": "Server Foundation",
       "repository": "https://github.com/stolostron/cluster-permission"
     },
     "multicloud_integrations": {

@@ -491,8 +491,8 @@ components:
     bundle: "acm-operator-bundle"
     repository: "https://github.com/stolostron/cluster-permission"
     prodseccomponent: "pscomponent:rhacm2/acm-cluster-permission-rhel9"
-    squad: "Application Lifecycle"
-    jira_component: "Application Lifecycle"
+    squad: "Server Foundation"
+    jira_component: "Server Foundation"
 
   - name: "multicloud-integrations"
     konflux_component: "multicloud-integrations-acm"
